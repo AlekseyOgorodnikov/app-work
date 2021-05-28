@@ -1,0 +1,73 @@
+.hero {
+  background-color: $color-bg;
+  position: relative;
+
+  .dots {
+    position: absolute;
+    bottom: $base * 7;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+.slider-hero {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  &__item {
+    height: $base * 147;
+    background-size: cover;
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+
+    &-content {
+      padding-top: $pd-vertical;
+      padding-bottom: $pd-vertical;
+      h5 {
+        font-family: Roboto;
+        font-weight: 500;
+        font-size: $fs-sm - 2;
+        line-height: $base * 3;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #3d4f9f;
+      }
+      h2 {
+        font-weight: $fw-light;
+        span {
+          font-weight: $fw-medium;
+        }
+      }
+
+      .text {
+        font-family: Roboto;
+        font-weight: $fw-regular;
+        font-size: $fs-md;
+        line-height: $base * 7;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #8d96bd;
+        width: $base * 125;
+        margin: 0 auto;
+        margin-bottom: $base * 5;
+      }
+    }
+  }
+}
+.icon-play {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: $base * 13;
+  height: $base * 13;
+  border-radius: 100%;
+  background-color: #fff;
+  box-shadow: 0px $base * 3 $base * 13 rgba(201, 209, 231, 0.6);
+
+  svg {
+    width: $base * 3;
+    height: $base * 3;
+  }
+}

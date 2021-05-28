@@ -1,0 +1,22 @@
+.footer {
+  border-bottom: 1px solid transparent;
+  .wrapper-inner {
+    padding-top: $pd-vertical-sm;
+    padding-bottom: $pd-vertical-sm;
+  }
+}
+
+.copyright {
+  font-family: Quicksand;
+  font-weight: $fw-medium;
+  font-size: $fs-sm;
+  line-height: $base * 4;
+  color: #aeb8d0;
+  margin-top: $base * 7;
+  margin-left: $base * 25;
+
+  @media (max-width: 1200px) {
+    text-align: center;
+    margin-left: 0;
+  }
+}

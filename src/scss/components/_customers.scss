@@ -1,0 +1,19 @@
+.customers {
+  .wrapper-inner {
+    padding-top: $pd-vertical-sm;
+    padding-bottom: $pd-vertical-sm;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    a {
+      opacity: 0.4;
+      transition: opacity 0.3s ease-in-out;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+}

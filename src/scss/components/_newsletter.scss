@@ -1,0 +1,38 @@
+.newsletter {
+  background: $color-bg-3;
+
+  .wrapper-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__left {
+    flex-basis: 35%;
+
+    &-title {
+      font-family: Quicksand;
+      font-weight: 700;
+      font-size: $fs-lg;
+      line-height: $base * 6;
+      color: #3d4f9f;
+      margin-bottom: $base * 5;
+    }
+    &-text {
+      font-size: $fs-sm-s;
+      line-height: $base * 7;
+      letter-spacing: 0.03em;
+    }
+  }
+
+  &__rigth {
+    flex-basis: 60%;
+  }
+
+  .form-newsletter {
+    display: flex;
+    .input {
+      width: $base * 70;
+    }
+  }
+}
